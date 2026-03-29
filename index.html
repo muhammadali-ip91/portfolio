@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- SEO Meta Tags -->
+    <title>Muhammad Ali | Full Stack Developer & ML Engineer</title>
+    <meta name="description" content="Muhammad Ali - Full Stack Developer and Machine Learning Engineer. Specializing in Python, JavaScript, React, Node.js, and AI/ML solutions. View my projects and get in touch.">
+    <meta name="keywords" content="Muhammad Ali, Full Stack Developer, Machine Learning, Python, JavaScript, React, Node.js, Portfolio, Software Engineer">
+    <meta name="author" content="Muhammad Ali">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://muhammadali-portfolio.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://muhammadali-portfolio.com/">
+    <meta property="og:title" content="Muhammad Ali | Full Stack Developer & ML Engineer">
+    <meta property="og:description" content="Full Stack Developer and Machine Learning Engineer specializing in modern web technologies and AI solutions.">
+    <meta property="og:image" content="https://muhammadali-portfolio.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://muhammadali-portfolio.com/">
+    <meta name="twitter:title" content="Muhammad Ali | Full Stack Developer & ML Engineer">
+    <meta name="twitter:description" content="Full Stack Developer and Machine Learning Engineer specializing in modern web technologies and AI solutions.">
+    <meta name="twitter:image" content="https://muhammadali-portfolio.com/assets/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Muhammad Ali",
+        "url": "https://muhammadali-portfolio.com",
+        "image": "https://muhammadali-portfolio.com/assets/images/profile.jpg",
+        "jobTitle": "Full Stack Developer & ML Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+        },
+        "sameAs": [
+            "https://github.com/muhammadali-ip91",
+            "https://linkedin.com/in/muhammad-ali-051923358"
+        ],
+        "knowsAbout": ["Web Development", "Machine Learning", "Python", "JavaScript", "React", "Node.js"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Neural Network Canvas Background -->
+    <canvas id="neural-canvas" aria-hidden="true"></canvas>
+    
+    <!-- Gradient Overlay -->
+    <div class="gradient-overlay" aria-hidden="true"></div>
+    
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-text">Muhammad Ali</span>
+                <span class="nav__logo-dot"></span>
+            </a>
+            
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            
+            <div class="nav__actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode" type="button">
+                    <i class="fas fa-moon theme-icon theme-icon--dark"></i>
+                    <i class="fas fa-sun theme-icon theme-icon--light"></i>
+                </button>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" type="button">
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- ==================== HERO SECTION ==================== -->
+        <section id="home" class="hero section">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__badge animate-in">
+                        <span class="hero__badge-dot"></span>
+                        <span>Available for work</span>
+                    </div>
+                    
+                    <h1 class="hero__title animate-in">
+                        Hi, I'm <span class="gradient-text">Muhammad Ali</span>
+                    </h1>
+                    
+                    <p class="hero__subtitle animate-in">
+                        <span class="typing-text" id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </p>
+                    
+                    <p class="hero__description animate-in">
+                        A passionate Software Engineering student at Pak-Austria University, 
+                        crafting modern web experiences and intelligent ML solutions. 
+                        I transform ideas into reality through clean, efficient code.
+                    </p>
+                    
+                    <div class="hero__cta animate-in">
+                        <a href="#projects" class="btn btn--primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn--secondary">
+                            <span>Get In Touch</span>
+                        </a>
+                        <a href="assets/files/cv.pdf" class="btn btn--ghost" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                    </div>
+                    
+                    <div class="hero__social animate-in">
+                        <a href="https://github.com/muhammadali-ip91" class="hero__social-link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/muhammad-ali-051923358" class="hero__social-link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/muhammadali_ip91/" class="hero__social-link" aria-label="Instagram Profile" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:muhammadali1233344@gmail.com" class="hero__social-link" aria-label="Email Me">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Visual / 3D Element -->
+                <div class="hero__visual animate-in">
+                    <div class="hero__avatar-wrapper">
+                        <div class="hero__avatar-glow"></div>
+                        <div class="hero__avatar-ring hero__avatar-ring--1"></div>
+                        <div class="hero__avatar-ring hero__avatar-ring--2"></div>
+                        <div class="hero__avatar-ring hero__avatar-ring--3"></div>
+                        <img src="assets/images/profile.jpg" alt="Muhammad Ali - Full Stack Developer" class="hero__avatar" width="280" height="280" loading="eager" decoding="async">
+                        
+                        <!-- Floating Tech Icons -->
+                        <div class="hero__floating-icons">
+                            <span class="floating-icon floating-icon--1"><i class="fab fa-python"></i></span>
+                            <span class="floating-icon floating-icon--2"><i class="fab fa-react"></i></span>
+                            <span class="floating-icon floating-icon--3"><i class="fab fa-node-js"></i></span>
+                            <span class="floating-icon floating-icon--4"><i class="fab fa-js"></i></span>
+                            <span class="floating-icon floating-icon--5"><i class="fas fa-brain"></i></span>
+                            <span class="floating-icon floating-icon--6"><i class="fab fa-html5"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+                <span class="hero__scroll-text">Scroll</span>
+                <span class="hero__scroll-line"></span>
+            </a>
+        </section>
+        
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section id="about" class="about section">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__subtitle animate-in">Get to know me</span>
+                    <h2 class="section__title animate-in">About <span class="gradient-text">Me</span></h2>
+                </header>
+                
+                <!-- Bento Grid Layout -->
+                <div class="bento-grid bento-grid--about">
+                    <!-- Main About Card -->
+                    <article class="bento-card bento-card--large animate-in" data-tilt>
+                        <div class="bento-card__content">
+                            <h3 class="bento-card__title">
+                                <i class="fas fa-user"></i>
+                                Who I Am
+                            </h3>
+                            <p class="bento-card__text">
+                                I'm a <strong>Full-Stack Developer</strong> and <strong>BSSE student</strong> 
+                                skilled in web, desktop, and machine learning application development. 
+                                I've built projects ranging from PHP/MySQL systems with Node.js APIs to 
+                                Python desktop applications integrated with Leaflet.js mapping.
+                            </p>
+                            <p class="bento-card__text">
+                                My tech stack includes <strong>HTML5, CSS3, JavaScript, PHP, Python, SQL, 
+                                and Express.js</strong>, along with practical experience in Machine Learning 
+                                using <strong>Scikit-Learn, TensorFlow, and Keras</strong>.
+                            </p>
+                            <p class="bento-card__text">
+                                I enjoy solving complex problems and creating innovative solutions across 
+                                different platforms. Currently seeking opportunities to apply my skills 
+                                and grow as a developer.
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <!-- Info Cards -->
+                    <article class="bento-card bento-card--small animate-in" data-tilt>
+                        <div class="bento-card__icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="bento-card__info">
+                            <span class="bento-card__label">Education</span>
+                            <strong class="bento-card__value">BSSE - 6th Semester</strong>
+                            <span class="bento-card__extra">Pak-Austria University</span>
+                        </div>
+                    </article>
+                    
+                    <article class="bento-card bento-card--small animate-in" data-tilt>
+                        <div class="bento-card__icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="bento-card__info">
+                            <span class="bento-card__label">Experience</span>
+                            <strong class="bento-card__value">3 Internships</strong>
+                            <span class="bento-card__extra">5+ Months Total</span>
+                        </div>
+                    </article>
+                    
+                    <article class="bento-card bento-card--small animate-in" data-tilt>
+                        <div class="bento-card__icon">
+                            <i class="fas fa-folder-open"></i>
+                        </div>
+                        <div class="bento-card__info">
+                            <span class="bento-card__label">Projects</span>
+                            <strong class="bento-card__value">10+ Completed</strong>
+                            <span class="bento-card__extra">Web, App, ML</span>
+                        </div>
+                    </article>
+                    
+                    <article class="bento-card bento-card--small animate-in" data-tilt>
+                        <div class="bento-card__icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="bento-card__info">
+                            <span class="bento-card__label">Location</span>
+                            <strong class="bento-card__value">Haripur, Pakistan</strong>
+                            <span class="bento-card__extra">Available Remote</span>
+                        </div>
+                    </article>
+                    
+                    <!-- Tech Stack Card -->
+                    <article class="bento-card bento-card--wide animate-in" data-tilt>
+                        <h3 class="bento-card__title">
+                            <i class="fas fa-code"></i>
+                            Tech Stack
+                        </h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag" data-tooltip="3+ years experience">
+                                <i class="fab fa-python"></i> Python
+                            </span>
+                            <span class="tech-tag" data-tooltip="3+ years experience">
+                                <i class="fab fa-js"></i> JavaScript
+                            </span>
+                            <span class="tech-tag" data-tooltip="2+ years experience">
+                                <i class="fab fa-html5"></i> HTML5
+                            </span>
+                            <span class="tech-tag" data-tooltip="2+ years experience">
+                                <i class="fab fa-css3-alt"></i> CSS3
+                            </span>
+                            <span class="tech-tag" data-tooltip="1+ year experience">
+                                <i class="fab fa-node-js"></i> Node.js
+                            </span>
+                            <span class="tech-tag" data-tooltip="1+ year experience">
+                                <i class="fab fa-php"></i> PHP
+                            </span>
+                            <span class="tech-tag" data-tooltip="ML Framework">
+                                <i class="fas fa-brain"></i> TensorFlow
+                            </span>
+                            <span class="tech-tag" data-tooltip="Database">
+                                <i class="fas fa-database"></i> MySQL
+                            </span>
+                            <span class="tech-tag" data-tooltip="Version Control">
+                                <i class="fab fa-git-alt"></i> Git
+                            </span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== SKILLS SECTION ==================== -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <header class="section__header skills__header">
+                    <span class="section__subtitle animate-in">Technical Proficiency</span>
+                    <h2 class="section__title skills__title animate-in">My <span class="gradient-text">Arsenal</span></h2>
+                    <p class="skills__intro animate-in">
+                        A production-shaped stack built across web systems, desktop tools, and machine learning —
+                        backed by 3 internships, real deployments, and hands-on project work at NRTC, ARCH Technologies, and CodeAlpha.
+                    </p>
+                </header>
+ 
+                <div class="skills__orbit animate-in">
+                    <button class="skills__orbit-nav skills__orbit-nav--prev" type="button" aria-label="Scroll skills left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+ 
+                    <div class="skills__orbit-window" aria-label="Highlighted tools">
+                        <div class="skills__orbit-track">
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-python"></i><span>Python</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-js"></i><span>JavaScript</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-php"></i><span>PHP</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fas fa-database"></i><span>MySQL</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-node-js"></i><span>Node.js</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fas fa-map"></i><span>Leaflet.js</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fas fa-brain"></i><span>TensorFlow</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fas fa-robot"></i><span>YOLO11</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-git-alt"></i><span>Git</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-figma"></i><span>Figma</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fas fa-fire"></i><span>Firebase</span></article>
+                            <article class="skills__orbit-item" data-tilt><i class="fab fa-linux"></i><span>Kali Linux</span></article>
+                        </div>
+                    </div>
+ 
+                    <button class="skills__orbit-nav skills__orbit-nav--next" type="button" aria-label="Scroll skills right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+ 
+                <div class="skills__dashboard">
+                    <article class="skills__feature animate-in" data-tilt>
+                        <span class="skills__eyebrow">Portfolio Snapshot</span>
+                        <h3 class="skills__feature-title">
+                            Building
+                            <br>
+                            Web, ML & <span>Desktop.</span>
+                        </h3>
+                        <p class="skills__feature-quote">
+                            "From NRTC geospatial mapping systems to ARCH Technologies brain tumor segmentation,
+                            I build practical software that blends clean UI, smart ML logic, and real-world usability."
+                        </p>
+ 
+                        <div class="skills__feature-stats">
+                            <div class="skills__feature-stat">
+                                <span class="skills__feature-label">Projects Delivered</span>
+                                <strong class="skills__feature-value">10+<span>builds</span></strong>
+                            </div>
+                            <div class="skills__feature-badge">
+                                <i class="fas fa-star"></i>
+                                <span>3 Internships</span>
+                            </div>
+                        </div>
+ 
+                        <div class="skills__feature-meter" aria-hidden="true">
+                            <span class="skills__feature-meter-fill"></span>
+                        </div>
+ 
+                        <div class="skills__feature-footer">
+                            <span>Hands-On Experience</span>
+                            <strong>5+ Months</strong>
+                        </div>
+                    </article>
+ 
+                    <article class="skills__command animate-in">
+                        <div class="skills__tabs" role="tablist" aria-label="Skills categories">
+                            <button class="skills__tab active" id="tab-web" role="tab" aria-selected="true" aria-controls="panel-web" data-tab="web" type="button"><i class="fas fa-globe"></i><span>Web Dev</span></button>
+                            <button class="skills__tab" id="tab-ml" role="tab" aria-selected="false" aria-controls="panel-ml" data-tab="ml" type="button"><i class="fas fa-brain"></i><span>ML / AI</span></button>
+                            <button class="skills__tab" id="tab-desktop" role="tab" aria-selected="false" aria-controls="panel-desktop" data-tab="desktop" type="button"><i class="fas fa-desktop"></i><span>Desktop</span></button>
+                            <button class="skills__tab" id="tab-tools" role="tab" aria-selected="false" aria-controls="panel-tools" data-tab="tools" type="button"><i class="fas fa-screwdriver-wrench"></i><span>Tools</span></button>
+                        </div>
+ 
+                        <!-- WEB DEV PANEL -->
+                        <div class="skills__panel active" id="panel-web" role="tabpanel" aria-labelledby="tab-web">
+                            <div class="skills__matrix">
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-html5"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">HTML5</h4></div>
+                                        <strong class="skill-card__score">95%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="95"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-css3-alt"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">CSS3</h4></div>
+                                        <strong class="skill-card__score">90%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="90"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-js"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">JavaScript</h4></div>
+                                        <strong class="skill-card__score">85%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="85"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-php"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">PHP</h4></div>
+                                        <strong class="skill-card__score">75%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="75"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-node-js"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Node.js / Express</h4></div>
+                                        <strong class="skill-card__score">80%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="80"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-database"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">MySQL / SQL Server</h4></div>
+                                        <strong class="skill-card__score">82%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="82"></div></div>
+                                </article>
+                            </div>
+                        </div>
+ 
+                        <!-- ML / AI PANEL -->
+                        <div class="skills__panel" id="panel-ml" role="tabpanel" aria-labelledby="tab-ml" hidden>
+                            <div class="skills__matrix">
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-python"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Python</h4></div>
+                                        <strong class="skill-card__score">95%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="95"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-robot"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">YOLO11 & SAM2</h4></div>
+                                        <strong class="skill-card__score">78%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="78"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-brain"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">TensorFlow / Keras</h4></div>
+                                        <strong class="skill-card__score">80%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="80"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-layer-group"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Scikit-Learn</h4></div>
+                                        <strong class="skill-card__score">80%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="80"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-file-lines"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">NLP / Streamlit</h4></div>
+                                        <strong class="skill-card__score">76%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="76"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-microscope"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Computer Vision</h4></div>
+                                        <strong class="skill-card__score">75%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="75"></div></div>
+                                </article>
+                            </div>
+                        </div>
+ 
+                        <!-- DESKTOP PANEL -->
+                        <div class="skills__panel" id="panel-desktop" role="tabpanel" aria-labelledby="tab-desktop" hidden>
+                            <div class="skills__matrix">
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-python"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">CustomTkinter</h4></div>
+                                        <strong class="skill-card__score">83%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="83"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-map"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Leaflet.js</h4></div>
+                                        <strong class="skill-card__score">85%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="85"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-globe"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">CEFPython3</h4></div>
+                                        <strong class="skill-card__score">72%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="72"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-volume-high"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Whisper / gTTS</h4></div>
+                                        <strong class="skill-card__score">78%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="78"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-lock"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Cryptography (Fernet)</h4></div>
+                                        <strong class="skill-card__score">74%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="74"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-location-dot"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">GIS Workflows</h4></div>
+                                        <strong class="skill-card__score">78%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="78"></div></div>
+                                </article>
+                            </div>
+                        </div>
+ 
+                        <!-- TOOLS PANEL -->
+                        <div class="skills__panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
+                            <div class="skills__matrix">
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-git-alt"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Git & GitHub</h4></div>
+                                        <strong class="skill-card__score">88%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="88"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-figma"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Figma</h4></div>
+                                        <strong class="skill-card__score">72%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="72"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-terminal"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">VS Code / Terminal</h4></div>
+                                        <strong class="skill-card__score">90%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="90"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fab fa-linux"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Kali Linux</h4></div>
+                                        <strong class="skill-card__score">65%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="65"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-fire"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Firebase</h4></div>
+                                        <strong class="skill-card__score">72%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="72"></div></div>
+                                </article>
+                                <article class="skill-card" data-tilt>
+                                    <div class="skill-card__icon"><i class="fas fa-list-check"></i></div>
+                                    <div class="skill-card__info">
+                                        <div><h4 class="skill-card__name">Agile Workflow</h4></div>
+                                        <strong class="skill-card__score">75%</strong>
+                                    </div>
+                                    <div class="skill-card__bar"><div class="skill-card__progress" data-width="75"></div></div>
+                                </article>
+                            </div>
+ 
+                            <div class="skills__command-footer">
+                                <span class="skills__system-status"><i class="fas fa-circle"></i>Profile: Optimized</span>
+                                <span class="skills__system-code">web_ml_desktop.v1</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== EXPERIENCE SECTION ==================== -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__subtitle animate-in">Where I've worked</span>
+                    <h2 class="section__title animate-in">My <span class="gradient-text">Experience</span></h2>
+                </header>
+                
+                <div class="timeline">
+                    <div class="timeline__line" aria-hidden="true">
+                        <div class="timeline__progress"></div>
+                    </div>
+                    
+                    <!-- Experience Item 1 -->
+                    <article class="timeline__item animate-in">
+                        <div class="timeline__dot">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline__card" data-tilt>
+                            <div class="timeline__header">
+                                <span class="timeline__duration">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2 Months
+                                </span>
+                                <span class="timeline__type">Internship</span>
+                            </div>
+                            <h3 class="timeline__role">Software Developer Intern</h3>
+                            <p class="timeline__company">
+                                <i class="fas fa-building"></i>
+                                NRTC (National Radio Telecommunication Corporation)
+                            </p>
+                            <p class="timeline__description">
+                                Developed full-stack applications in the Electronic Warfare Department, 
+                                including an Interactive Geospatial Mapping System using Python/Leaflet.js 
+                                and a Login Management System with PHP/MySQL/Node.js. Gained hands-on 
+                                experience with CustomTkinter, CEFPython3, REST APIs, and GIS technologies.
+                            </p>
+                            <div class="timeline__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Leaflet.js</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Experience Item 2 -->
+                    <article class="timeline__item animate-in">
+                        <div class="timeline__dot">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="timeline__card" data-tilt>
+                            <div class="timeline__header">
+                                <span class="timeline__duration">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    2 Months
+                                </span>
+                                <span class="timeline__type">Internship</span>
+                            </div>
+                            <h3 class="timeline__role">Machine Learning Intern</h3>
+                            <p class="timeline__company">
+                                <i class="fas fa-building"></i>
+                                Arch Technologies
+                            </p>
+                            <p class="timeline__description">
+                                Worked on hands-on ML projects including Brain Tumor Segmentation 
+                                using YOLO11 & SAM2 and MNIST Digit Recognition. Gained practical 
+                                experience with Scikit-Learn, TensorFlow, and Keras while applying 
+                                core ML concepts from Hands-On Machine Learning.
+                            </p>
+                            <div class="timeline__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Keras</span>
+                                <span class="tag">YOLO</span>
+                                <span class="tag">SAM2</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Experience Item 3 -->
+                    <article class="timeline__item animate-in">
+                        <div class="timeline__dot">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline__card" data-tilt>
+                            <div class="timeline__header">
+                                <span class="timeline__duration">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    1 Month
+                                </span>
+                                <span class="timeline__type">Internship</span>
+                            </div>
+                            <h3 class="timeline__role">Full Stack Developer Intern</h3>
+                            <p class="timeline__company">
+                                <i class="fas fa-building"></i>
+                                CodeAlpha
+                            </p>
+                            <p class="timeline__description">
+                                Built responsive UI components, polished layouts, and introduced 
+                                micro-animations to improve UX. Successfully completed a full stack 
+                                project, applying concepts of both frontend and backend development 
+                                in an integrated application.
+                            </p>
+                            <div class="timeline__tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== PROJECTS SECTION ==================== -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__subtitle animate-in">What I've built</span>
+                    <h2 class="section__title animate-in">Featured <span class="gradient-text">Projects</span></h2>
+                </header>
+                
+                <!-- Project Filters -->
+                <div class="projects__filters animate-in" role="tablist" aria-label="Project categories">
+                    <button class="projects__filter active" data-filter="all">
+                        <span>All Projects</span>
+                        <span class="projects__filter-count">6</span>
+                    </button>
+                    <button class="projects__filter" data-filter="ml">
+                        <span>Machine Learning</span>
+                        <span class="projects__filter-count">2</span>
+                    </button>
+                    <button class="projects__filter" data-filter="web">
+                        <span>Web Apps</span>
+                        <span class="projects__filter-count">2</span>
+                    </button>
+                    <button class="projects__filter" data-filter="desktop">
+                        <span>Desktop Apps</span>
+                        <span class="projects__filter-count">2</span>
+                    </button>
+                </div>
+                
+                <!-- Projects Grid -->
+                <div class="projects__grid">
+                    <!-- Project 1: AI Resume Analyzer -->
+                    <article class="project-card animate-in" data-category="ml" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/ai-resume.png" alt="AI-Based Resume Relevance & Skill Gap Analyzer" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="https://mainpy-fcwt4mixtb7bsdbpjwauqk.streamlit.app/" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/muhammadali-ip91/resume_analyzer" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-brain"></i> Machine Learning
+                            </span>
+                            <h3 class="project-card__title">AI Resume Analyzer</h3>
+                            <p class="project-card__description">
+                                Analyzes resume relevance against job descriptions and identifies skill gaps using NLP and AI techniques.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Streamlit</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">AI</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 2: Brain Tumor Segmentation -->
+                    <article class="project-card animate-in" data-category="ml" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/brain-tumor.png" alt="Brain Tumor Segmentation using YOLO and SAM2" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="https://github.com/muhammadali-ip91/ml-project-brain-segmentation" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-brain"></i> Machine Learning
+                            </span>
+                            <h3 class="project-card__title">Brain Tumor Segmentation</h3>
+                            <p class="project-card__description">
+                                Medical imaging project using YOLO11 and SAM2 for accurate brain tumor detection and segmentation.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">YOLO</span>
+                                <span class="tag">SAM2</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Deep Learning</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 3: GeoMapper Pro -->
+                    <article class="project-card animate-in" data-category="desktop" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/geomapper.png" alt="GeoMapper Pro - Interactive Geospatial Mapping System" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="https://github.com/muhammadali-ip91/leafletmap_with_python" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-desktop"></i> Desktop App
+                            </span>
+                            <h3 class="project-card__title">GeoMapper Pro</h3>
+                            <p class="project-card__description">
+                                Interactive Geospatial Mapping System built with Python and Leaflet.js for visualization and analysis.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Leaflet.js</span>
+                                <span class="tag">CustomTkinter</span>
+                                <span class="tag">GIS</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 4: Audio Translator -->
+                    <article class="project-card animate-in" data-category="desktop" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/audio-translator.png" alt="Multilingual Audio Translator" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="https://github.com/muhammadali-ip91/Multilingual-Audio-Translator" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-desktop"></i> Desktop App
+                            </span>
+                            <h3 class="project-card__title">Audio Translator</h3>
+                            <p class="project-card__description">
+                                Multilingual audio translation application that converts speech to Urdu audio output.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Speech Recognition</span>
+                                <span class="tag">TTS</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 5: Portfolio Website -->
+                    <article class="project-card animate-in" data-category="web" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/portfolio.png" alt="Personal Portfolio Website" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="#" class="project-card__btn" aria-label="View Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/muhammadali-ip91/portfolio_design" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-globe"></i> Web App
+                            </span>
+                            <h3 class="project-card__title">Portfolio Website</h3>
+                            <p class="project-card__description">
+                                Personal portfolio showcasing my projects, skills, and experience with modern design.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GSAP</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Project 6: Login System -->
+                    <article class="project-card animate-in" data-category="web" data-tilt>
+                        <div class="project-card__image">
+                            <img src="assets/images/projects/login-app.png" alt="Login Management System" loading="lazy" width="600" height="400">
+                            <div class="project-card__overlay">
+                                <div class="project-card__actions">
+                                    <a href="https://github.com/muhammadali-ip91/login_page_tkinter" class="project-card__btn" target="_blank" rel="noopener noreferrer" aria-label="View Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card__content">
+                            <span class="project-card__category">
+                                <i class="fas fa-globe"></i> Web App
+                            </span>
+                            <h3 class="project-card__title">Login Management System</h3>
+                            <p class="project-card__description">
+                                Secure login system with user authentication, session management, and admin panel.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <!-- View More Button -->
+                <div class="projects__more animate-in">
+                    <a href="https://github.com/muhammadali-ip91" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View All on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ==================== CERTIFICATES SECTION ==================== -->
+        <section id="certificates" class="certificates section">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__subtitle animate-in">My achievements</span>
+                    <h2 class="section__title animate-in">Certificates & <span class="gradient-text">Awards</span></h2>
+                </header>
+                
+                <div class="certificates__wrapper">
+                    <button class="certificates__nav certificates__nav--prev" aria-label="Previous certificate" type="button">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    
+                    <div class="certificates__track">
+                        <div class="certificates__slider">
+                            <!-- Certificate 1 -->
+                            <article class="certificate-card animate-in" data-tilt>
+                                <div class="certificate-card__image">
+                                    <img src="assets/images/certificates/nrtc.jpg" alt="Software Developer Intern Certificate from NRTC" loading="lazy" width="400" height="280">
+                                    <button class="certificate-card__zoom" aria-label="View full certificate" data-src="assets/images/certificates/nrtc.jpg">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <div class="certificate-card__content">
+                                    <h3 class="certificate-card__title">Software Developer Intern</h3>
+                                    <p class="certificate-card__issuer">
+                                        <i class="fas fa-building"></i>
+                                        National Radio Telecommunication Corporation
+                                    </p>
+                                </div>
+                            </article>
+                            
+                            <!-- Certificate 2 -->
+                            <article class="certificate-card animate-in" data-tilt>
+                                <div class="certificate-card__image">
+                                    <img src="assets/images/certificates/archtech.jpg" alt="Machine Learning Intern Certificate from Arch Technologies" loading="lazy" width="400" height="280">
+                                    <button class="certificate-card__zoom" aria-label="View full certificate" data-src="assets/images/certificates/archtech.jpg">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <div class="certificate-card__content">
+                                    <h3 class="certificate-card__title">Machine Learning Intern</h3>
+                                    <p class="certificate-card__issuer">
+                                        <i class="fas fa-building"></i>
+                                        Arch Technologies
+                                    </p>
+                                </div>
+                            </article>
+                            
+                            <!-- Certificate 3 -->
+                            <article class="certificate-card animate-in" data-tilt>
+                                <div class="certificate-card__image">
+                                    <img src="assets/images/certificates/codealpha.jpg" alt="Full Stack Development Intern Certificate from CodeAlpha" loading="lazy" width="400" height="280">
+                                    <button class="certificate-card__zoom" aria-label="View full certificate" data-src="assets/images/certificates/codealpha.jpg">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <div class="certificate-card__content">
+                                    <h3 class="certificate-card__title">Full Stack Developer Intern</h3>
+                                    <p class="certificate-card__issuer">
+                                        <i class="fas fa-building"></i>
+                                        CodeAlpha
+                                    </p>
+                                </div>
+                            </article>
+                            
+                            <!-- Certificate 4 -->
+                            <article class="certificate-card animate-in" data-tilt>
+                                <div class="certificate-card__image">
+                                    <img src="assets/images/certificates/cyber.jpg" alt="Introduction to Cybersecurity Awareness Certificate from HP LIFE" loading="lazy" width="400" height="280">
+                                    <button class="certificate-card__zoom" aria-label="View full certificate" data-src="assets/images/certificates/cyber.jpg">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <div class="certificate-card__content">
+                                    <h3 class="certificate-card__title">Cybersecurity Awareness</h3>
+                                    <p class="certificate-card__issuer">
+                                        <i class="fas fa-building"></i>
+                                        HP LIFE
+                                    </p>
+                                </div>
+                            </article>
+                            
+                            <!-- Certificate 5 -->
+                            <article class="certificate-card animate-in" data-tilt>
+                                <div class="certificate-card__image">
+                                    <img src="assets/images/certificates/agile.jpg" alt="Agile Project Management Certificate from HP LIFE" loading="lazy" width="400" height="280">
+                                    <button class="certificate-card__zoom" aria-label="View full certificate" data-src="assets/images/certificates/agile.jpg">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <div class="certificate-card__content">
+                                    <h3 class="certificate-card__title">Agile Project Management</h3>
+                                    <p class="certificate-card__issuer">
+                                        <i class="fas fa-building"></i>
+                                        HP LIFE
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    
+                    <button class="certificates__nav certificates__nav--next" aria-label="Next certificate" type="button">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <!-- Slider Dots -->
+                <div class="certificates__dots" role="tablist" aria-label="Certificate slides"></div>
+            </div>
+        </section>
+        
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <header class="section__header">
+                    <span class="section__subtitle animate-in">Let's work together</span>
+                    <h2 class="section__title animate-in">Get In <span class="gradient-text">Touch</span></h2>
+                </header>
+                
+                <div class="contact__wrapper">
+                    <!-- Contact Info -->
+                    <div class="contact__info animate-in">
+                        <div class="contact__text">
+                            <h3>Let's Build Something Amazing</h3>
+                            <p>
+                                Have a project in mind or want to collaborate? 
+                                I'm always open to discussing new opportunities, 
+                                creative ideas, or ways to help bring your vision to life.
+                            </p>
+                        </div>
+                        
+                        <div class="contact__details">
+                            <a href="mailto:muhammadali1233344@gmail.com" class="contact__item">
+                                <div class="contact__item-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">Email</span>
+                                    <strong class="contact__item-value">muhammadali1233344@gmail.com</strong>
+                                </div>
+                            </a>
+                            
+                            <a href="https://wa.me/923089749285" class="contact__item" target="_blank" rel="noopener noreferrer">
+                                <div class="contact__item-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">WhatsApp</span>
+                                    <strong class="contact__item-value">+92 308 9749285</strong>
+                                </div>
+                            </a>
+                            
+                            <div class="contact__item">
+                                <div class="contact__item-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact__item-info">
+                                    <span class="contact__item-label">Location</span>
+                                    <strong class="contact__item-value">Haripur, Pakistan</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Links -->
+                        <div class="contact__social">
+                            <span class="contact__social-label">Find me on</span>
+                            <div class="contact__social-links">
+                                <a href="https://github.com/muhammadali-ip91" class="contact__social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/muhammad-ali-051923358" class="contact__social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://www.instagram.com/muhammadali_ip91/" class="contact__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <form class="contact__form animate-in" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required autocomplete="name">
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required autocomplete="email">
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Discussion">
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." rows="5" required></textarea>
+                            <span class="form-error" aria-live="polite"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <span class="btn__text">Send Message</span>
+                            <span class="btn__loading">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Sending...
+                            </span>
+                            <i class="fas fa-paper-plane btn__icon"></i>
+                        </button>
+                        
+                        <!-- Form Status -->
+                        <div class="form-status" id="form-status" aria-live="polite" hidden></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#home" class="footer__logo">
+                        <span class="footer__logo-text">Muhammad Ali</span>
+                    </a>
+                    <p class="footer__tagline">Full Stack Developer & ML Engineer</p>
+                </div>
+                
+                <nav class="footer__nav" aria-label="Footer navigation">
+                    <a href="#home" class="footer__link">Home</a>
+                    <a href="#about" class="footer__link">About</a>
+                    <a href="#projects" class="footer__link">Projects</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </nav>
+                
+                <div class="footer__social">
+                    <a href="https://github.com/muhammadali-ip91" class="footer__social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/muhammad-ali-051923358" class="footer__social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/muhammadali_ip91/" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; <span id="current-year">2025</span> Muhammad Ali. All rights reserved.</p>
+                <p class="footer__credit">Crafted with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top" type="button">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- Certificate Modal -->
+    <div class="modal" id="certificate-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal__backdrop"></div>
+        <div class="modal__content">
+            <button class="modal__close" aria-label="Close modal" type="button">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="" class="modal__image" id="modal-image">
+        </div>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="alert" aria-live="assertive" hidden>
+        <div class="toast__icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__content">
+            <strong class="toast__title">Success!</strong>
+            <p class="toast__message">Your message has been sent.</p>
+        </div>
+        <button class="toast__close" aria-label="Close notification" type="button">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/neural-network.js"></script>
+    <script src="js/animations.js"></script>
+    <script type="module" src="js/firebase.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
